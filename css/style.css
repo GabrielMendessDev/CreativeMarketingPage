@@ -78,6 +78,7 @@ header .menu .btnRegistration:hover{
 .container .left-side p{
     color: white;
     padding: 0.5rem 0;
+    width: 30rem;
 }
 
 .container .left-side .form form{
