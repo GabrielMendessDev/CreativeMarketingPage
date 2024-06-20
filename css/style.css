@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: var(--backgroundColor);
+}
+
+:root{
+    --color-font: #840ec9;
+    --backgroundColor: #222222;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+header .marca{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header .marca h1{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+header .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header .menu a{
+    text-decoration: none;
+    color: white;
+}
+
+header .menu .btnRegistration{
+    border: 1px solid var(--color-font);
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+
+}
+
+header .menu .btnRegistration:hover{
+    background-color: var(--color-font);
+    transition: all 0.4s;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 4rem;
+} 
+
+.container .left-side h2{
+    color: white;
+    margin: -1rem;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.container .left-side .colorful-title{
+    color: var(--color-font);
+}
+
+.container .left-side p{
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.container .left-side .form form{
+    display: flex;
+    max-width: 19rem;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container .left-side .form form input{
+    color: white;
+    padding: 0.9rem;
+    border-radius: 1.2rem;
+    font-size: 0.8rem;
+    background-color: white;
+}
+
+.container .left-side .form form input:focus{
+    outline: 0.2rem solid var(--color-font);
+}
+
+.container .left-side .form button{
+    padding: 0.8rem;
+    width: 10rem;
+    margin: 1.8rem 0;
+    font-weight: 600;
+    color: white;
+    background-color: var(--color-font);
+    border-radius: 1.2rem;
+}
+
+.container .left-side .form button:hover{
+    background-color: #6e0591;
+    transition: all 0.6s;
+    cursor: pointer;
+}
