@@ -25,6 +25,7 @@ header .marca{
     color: white;
     display: flex;
     flex-direction: column;
+    padding: 1rem 4rem;
 }
 
 header .marca h1{
@@ -61,21 +62,21 @@ header .menu .btnRegistration:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 4rem;
+    padding: 1rem 6rem;
 } 
 
-.container .left-side h2{
+.container .left-side .subscribe h2{
     color: white;
     margin: -1rem;
     font-weight: 800;
     font-size: 3rem;
 }
 
-.container .left-side .colorful-title{
+.container .left-side .subscribe .colorful-title{
     color: var(--color-font);
 }
 
-.container .left-side p{
+.container .left-side .subscribe p{
     color: white;
     padding: 0.5rem 0;
     width: 30rem;
@@ -89,7 +90,7 @@ header .menu .btnRegistration:hover{
 }
 
 .container .left-side .form form input{
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 0.9rem;
     border-radius: 1.2rem;
     font-size: 0.8rem;
